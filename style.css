@@ -11,10 +11,11 @@ width: 100%;
 margin: 0px;
 }
 
-#status
+#status,#start
 {
 font-size: 18px;
 box-shadow: 6px 6px 6px orange;
+margin-top: 20px;
 }
 
 canvas
@@ -24,3 +25,9 @@ border-radius: 20px;
 border-color: black;
 border-style: solid;
 }
+
+#number_of_objects
+{
+  font-size: 18px;
+  box-shadow: 6px 6px 6px red;
+  }
